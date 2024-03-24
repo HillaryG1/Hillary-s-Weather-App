@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hillary's Weather App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+<div class="card">
+     <div class="search">
+        <input type="text" placeholder="enter city name" 
+        spellcheck="false">
+        <button><img src="https://cdn-icons-png.flaticon.com/128/49/49116.png" width="30px"></button>
+    </div>
+    <div class="error">
+        <p>Invalid city name</p>
+    </div>
+    <div class="weather">
+        <img src="https://cdn-icons-png.flaticon.com/128/3406/3406977.png" 
+        alt=""
+        class="weatherIcon">
+        <h1 class="temp">22°F</h1>
+        <h2 class="city">Abidjan</h2>
+        <div class="details">
+            <div class="col">
+                <img src="https://cdn-icons-png.flaticon.com/128/1633/1633519.png" 
+                alt="">
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="https://cdn-icons-png.flaticon.com/128/2011/2011448.png" 
+                alt="">
+                <div>
+                    <p class="wind"> 9 mph</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+    
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>
