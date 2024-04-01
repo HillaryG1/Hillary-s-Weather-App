@@ -1,4 +1,4 @@
-# Weather App
+# Hillary's Weather App
 
 This is a weather application developed using HTML, CSS, and JavaScript. It fetches weather data from the OpenWeatherMap API based on the city entered by the user and displays the current weather conditions including temperature, humidity, and wind speed.
 
