@@ -13,19 +13,23 @@
 
 <div class="card">
      <div class="search">
-        <input type="text" placeholder="enter city name" 
-        spellcheck="false">
+        <!-- Include at least one form and/or input with HTML attribute validation -->
+        <input type="text" placeholder="Enter city name" spellcheck="false" 
+        class="cityName" required pattern="[A-Za-z\s]+" 
+        title="City name must contain only letters and spaces">
         <button><img src="https://cdn-icons-png.flaticon.com/128/49/49116.png" width="30px"></button>
+        
     </div>
     <div class="error">
         <p>Invalid city name</p>
     </div>
     <div class="weather">
+        <p class="description"></p>
         <img src="https://cdn-icons-png.flaticon.com/128/3406/3406977.png" 
         alt=""
         class="weatherIcon">
         <h1 class="temp">22°F</h1>
-        <h2 class="city">Abidjan</h2>
+        <h2 id="city">Abidjan</h2>
         <div class="details">
             <div class="col">
                 <img src="https://cdn-icons-png.flaticon.com/128/1633/1633519.png" 
